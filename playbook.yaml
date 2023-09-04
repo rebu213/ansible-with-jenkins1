@@ -9,5 +9,4 @@
   - name: "ensure Alex user exists"
     user:
       name: alex
-      state: present
-      
+      state: absent
